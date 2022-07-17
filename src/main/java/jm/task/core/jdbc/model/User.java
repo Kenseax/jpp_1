@@ -9,13 +9,13 @@ public class User {
     @Id
     private Long id;
 
-    @Column(name = "")
+    @Column(name = "name")
     private String name;
 
-    @Column
+    @Column(name = "lastname")
     private String lastName;
 
-    @Column
+    @Column (name = "age")
     private Byte age;
 
     public User() {
